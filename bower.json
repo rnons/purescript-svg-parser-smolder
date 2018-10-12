@@ -1,0 +1,29 @@
+{
+  "name": "purescript-svg-parser-smolder",
+  "description": "A library to inline SVG string into smolder views",
+  "keywords": [
+    "purescript",
+    "smolder",
+    "svg"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rnons/purescript-svg-parser-smolder.git"
+  },
+  "license": "BSD-3-Clause",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output",
+    "docs"
+  ],
+  "dependencies": {
+    "purescript-prelude": "^4.0.0",
+    "purescript-svg-parser": "^1.0.0",
+    "purescript-smolder": "^11.0.0"
+  },
+  "devDependencies": {
+    "purescript-psci-support": "^4.0.0"
+  }
+}
